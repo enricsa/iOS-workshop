@@ -87,3 +87,31 @@ for i in 0..<3 {
 
 print(mutableInt)
 
+///Functions
+
+func saySomething() {
+    print("Something")
+}
+
+func say(message: String) {
+    print(message)
+}
+
+func sayThis(_ message: String) {
+    print(message)
+}
+
+say(message: "Swift")
+say(message: "Swift another time")
+sayThis("Swift rocks")
+
+func checkNumber(number: Int) -> Bool {
+    if number == 3 {
+        return true
+    }
+    return false
+}
+
+checkNumber(number: 3)
+checkNumber(number: 5)
+
