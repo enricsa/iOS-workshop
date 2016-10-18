@@ -30,12 +30,12 @@ class CalculatorUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testCalculator() {
+    func testExisting() {
         XCTAssert(app.staticTexts["Calculator"].exists)
         XCTAssert(app.staticTexts["Result:"].exists)
-        
-        print(app.debugDescription)
-        
+    }
+    
+    func testCorrectAddValues() {
         let tfOne = app.textFields["tfOne"]
         tfOne.tap()
         tfOne.typeText("2")
@@ -45,12 +45,58 @@ class CalculatorUITests: XCTestCase {
         tfTwo.typeText("3")
         
         app.buttons["+"].tap()
-        
         XCTAssert(app.staticTexts["5"].exists)
-        
-        app.buttons["-"].tap()
-        
-        XCTAssert(app.staticTexts["-1"].exists)
     }
     
+    func testCorrectSubstractValues() {
+        let tfOne = app.textFields["tfOne"]
+        tfOne.tap()
+        tfOne.typeText("6")
+        
+        let tfTwo = app.textFields["tfTwo"]
+        tfTwo.tap()
+        tfTwo.typeText("8")
+        
+        app.buttons["-"].tap()
+        XCTAssert(app.staticTexts["-2"].exists)
+    }
+    
+    func testEmptyValues() {
+        app.buttons["+"].tap()
+        app.alerts["Error"].buttons["OK"].tap()
+        
+        app.buttons["-"].tap()
+        app.alerts["Error"].buttons["OK"].tap()
+    }
+    
+    func testWrongValueOnFirstTf() {
+        XCTAssert(app.staticTexts["Calculator"].exists)
+        XCTAssert(app.staticTexts["Result:"].exists)
+        
+        let tfOne = app.textFields["tfOne"]
+        tfOne.tap()
+        tfOne.typeText("bla")
+        
+        app.buttons["+"].tap()
+        app.alerts["Error"].buttons["OK"].tap()
+        
+        app.buttons["-"].tap()
+        app.alerts["Error"].buttons["OK"].tap()
+    }
+    
+    func testWrongValueOnSecondTf() {
+        XCTAssert(app.staticTexts["Calculator"].exists)
+        XCTAssert(app.staticTexts["Result:"].exists)
+        
+        let tfOne = app.textFields["tfTwo"]
+        tfOne.tap()
+        tfOne.typeText("bla")
+        
+        app.buttons["+"].tap()
+        app.alerts["Error"].buttons["OK"].tap()
+        
+        app.buttons["-"].tap()
+        app.alerts["Error"].buttons["OK"].tap()
+    }
+
 }
