@@ -33,9 +33,15 @@ class CalculatorUITests: XCTestCase {
     func testExisting() {
         XCTAssert(app.staticTexts["Calculator"].exists)
         XCTAssert(app.staticTexts["Result:"].exists)
+        XCTAssert(app.textFields["tfOne"].exists)
+        XCTAssert(app.textFields["tfTwo"].exists)
+        XCTAssert(app.buttons["+"].exists)
+        XCTAssert(app.buttons["-"].exists)
     }
     
     func testCorrectAddValues() {
+        testExisting()
+        
         let tfOne = app.textFields["tfOne"]
         tfOne.tap()
         tfOne.typeText("2")
@@ -49,6 +55,8 @@ class CalculatorUITests: XCTestCase {
     }
     
     func testCorrectSubstractValues() {
+        testExisting()
+        
         let tfOne = app.textFields["tfOne"]
         tfOne.tap()
         tfOne.typeText("6")
@@ -62,6 +70,8 @@ class CalculatorUITests: XCTestCase {
     }
     
     func testEmptyValues() {
+        testExisting()
+        
         app.buttons["+"].tap()
         app.alerts["Error"].buttons["OK"].tap()
         
@@ -70,8 +80,7 @@ class CalculatorUITests: XCTestCase {
     }
     
     func testWrongValueOnFirstTf() {
-        XCTAssert(app.staticTexts["Calculator"].exists)
-        XCTAssert(app.staticTexts["Result:"].exists)
+        testExisting()
         
         let tfOne = app.textFields["tfOne"]
         tfOne.tap()
@@ -85,8 +94,7 @@ class CalculatorUITests: XCTestCase {
     }
     
     func testWrongValueOnSecondTf() {
-        XCTAssert(app.staticTexts["Calculator"].exists)
-        XCTAssert(app.staticTexts["Result:"].exists)
+        testExisting()
         
         let tfOne = app.textFields["tfTwo"]
         tfOne.tap()
