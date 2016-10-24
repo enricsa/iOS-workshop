@@ -13,8 +13,9 @@ The main purpose of this workshop is:
 - **Object-oriented experience:** Cocoa touch is 100% object-oriented so having experience on it is mandatory. The developers must have knowledge about classes, instances, functions, methods, inheritance, etc
 
 ## Contents 
-- [Welcome to the Xcode](./Docs/Xcode/)
-- [Model-View-Controller (MVC) ](./Docs/MVC/)
-- [Playground: Swift basics](./Docs/Swift/)
-- [App 01: Hello world]() 
-- [App 02: Super calculator]()
+* Session 01
+  * [Welcome to the Xcode](./Docs/Xcode/)
+  * [Model-View-Controller (MVC) ](./Docs/MVC/)
+  * [Playground: Swift basics](./Docs/Swift/)
+  * [App 01: Hello world]() 
+  * [App 02: Super calculator]()
