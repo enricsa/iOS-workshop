@@ -6,7 +6,7 @@ On a advanced projects we can also use MVP, SOLID, VIPER, or other design patter
 The MVC design pattern distributes like this: 
 
 * **Model**: __What__ your application __is/do__ (but not how it is displayed). Contains all the business logic. 
-* **View**: __What__ the user __see__. Contains all the visual elements the user sees like buttons, textfields, etc.
+* **View**: __What__ the user will __see__. Contains all the visual elements the user sees like buttons, textfields, etc.
 * **Controller**: __How__ your Model __is presented__ to the user (UI logic). The link between Model and View.
 
 **IMPORTANT**: The view NEVER talk with the model
