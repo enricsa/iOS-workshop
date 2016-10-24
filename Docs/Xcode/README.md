@@ -1,7 +1,7 @@
 
 # Welcome to the Xcode
 
-* [Installation](#instalation) 
+* [Installation](#installation) 
 * [Create a new Application](#create-a-new-application) 
 * [Xcode interface](#xcode-interface)
 * [Project Structure](#project-structure)
@@ -92,7 +92,7 @@ This area activates by default when the app pauses on a breakpoint and the top l
 
 ## Project Structure
 
-iOS/MacOS applications normally use the design pattern MVC (Model - View - Controller). On a advanced projects we can also use SOLID, VIPER, or other design patters 
+iOS/MacOS applications normally use the design pattern MVC (Model - View - Controller). On a advanced projects we can also use SOLID, VIPER, or other design patters.
 In a newly created project we can distribute like this:
 
 * Model: Will be all the clases or structures and the logic that not depends of the UI. 
