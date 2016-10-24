@@ -16,6 +16,6 @@ The main purpose of this workshop is:
 * Session 01
   * [Welcome to the Xcode](./Docs/Xcode/)
   * [Model-View-Controller (MVC) ](./Docs/MVC/)
-  * [Playground: Swift basics](./Docs/Swift/)
+  * [Playground: Swift basics](./Examples/Example_00_Swift/)
   * [App 01: Hello world]() 
   * [App 02: Super calculator]()
