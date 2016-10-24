@@ -14,7 +14,7 @@ The main purpose of this workshop is:
 
 ## Contents 
 - [Welcome to the Xcode](./Docs/Xcode/)
-- [MVC](./Docs/MVC/)
+- [Model-View-Controller (MVC) ](./Docs/MVC/)
 - [Playground: Swift basics](./Docs/Swift/)
 - [App 01: Hello world]() 
 - [App 02: Super calculator]()
