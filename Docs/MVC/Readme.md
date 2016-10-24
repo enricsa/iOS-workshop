@@ -20,7 +20,7 @@ The communitation in MVC applied to iOS:
   The model can give the data in synchronous tasks or can notify one controller (or more of them) when finished using:
   * [Key-Value-Observing][KVO]: When a model variable changed the model notify the controllers (Broadcast)
   * [Notification Center][NotificationCenter]: Model launch a specific notification to all subscribers (Broadcast)
-  * Closures: We can launch a void when the operation finishes (not Broadcast)
+  * [Closures][Closures]: We can launch a void when the operation finishes (not Broadcast)
 
 * **Controller -> View**: Controller manage the view states using outlets (IBOutlets) having references to the UI objects.
   
@@ -34,5 +34,5 @@ The communitation in MVC applied to iOS:
 [MVC2]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/MVC2.png "MVC Complete"
 [KVO]: https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html "KVO"
 [NotificationCenter]: https://developer.apple.com/reference/foundation/nsnotificationcenter: "Notification Center"
-
+[Closures]: https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html "Closures"
 
