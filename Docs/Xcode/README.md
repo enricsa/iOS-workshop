@@ -1,5 +1,5 @@
 
-# Xcode
+# Welcome to the Xcode
 
 * [Installation](#instalation) 
 * [Create a new Application](#create-a-new-application) 
