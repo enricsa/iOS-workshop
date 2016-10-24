@@ -1,14 +1,14 @@
 
 # Xcode
 
-* [Instalation](#instalation) 
+* [Installation](#instalation) 
 * [Create a new Application](#create-a-new-application) 
 * [Xcode interface](#xcode-interface)
 * [Project Structure](#project-structure)
 
-## Instalation
+## Installation
 
-Xcode instalation is so simple as launch [App Store][AppStore] and get it. 
+Xcode installation is so simple as launch [App Store][AppStore] and get it. 
 At first launch it will install all the main dependencies and api. 
 
 ## Create a new Application
