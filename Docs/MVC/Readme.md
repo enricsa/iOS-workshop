@@ -26,7 +26,7 @@ The communitation in MVC applied to iOS:
   
 * **View -> Controller**: 
   * The view send user interaction events assigning a IBAction to a target (controller). 
-  * If the view needs model or controller data to show something (table of items for example), the controller must implement delegates and data source.
+  * If the view needs model or controller data to show something (list of items for example), the controller must implement delegates and data source to allow view getting this information.
 
 ![alt text][MVC2]
 
