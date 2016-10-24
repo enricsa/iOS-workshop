@@ -18,7 +18,7 @@ Xcode presents the next screen by default.
 ![alt text][Welcome]
 
 In this screen we can see the recent projects we were working, open another or start a new one:
-* **Get started with a playground**: Give you the ability to write or test code without buiding an app. More info: [Playground][Playground]
+* **Get started with a playground**: Give you the ability to write or test code without buiding an app. 
 * **Create a new project**: Start a new project with different options
 * **Checkout an existing project**: Checkout from an existing repository
 
@@ -105,7 +105,7 @@ You can read more info: [MVC][MVC]
 [Welcome]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/XCode1.png "Welcome Screen"
 [New Project]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/XCode2.png "New project"
 [Project config]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/XCode3.png "New project"
-[Playground]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Docs/Swift/ "Playground"
+[Playground]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Examples/Example_00_Swift/ "Playground"
 [Navigator Screen]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/navigator.png "Navigator Screen"
 [UtilitiesTop]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/properties_top.png "Utilities Top"
 [UtilitiesBottom]: https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/properties_files.png "Utilities Bottom"
