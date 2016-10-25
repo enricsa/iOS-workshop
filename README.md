@@ -19,3 +19,6 @@ The main purpose of this workshop is:
   * [Playground: Swift basics](./Examples/Example_00_Swift/)
   * [App 01: Hello world](./Examples/Example_01_HelloWorld/) 
   * [App 02: Super calculator](./Examples/Example_02_Calculator/)
+* Session 02
+  * [App 03: Flow and tables](./Examples/Example_03_Flow_And_Tables/)
+  
