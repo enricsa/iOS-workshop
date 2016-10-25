@@ -3,7 +3,7 @@
 In this example we will learn the basic Swift 3.0 sintax using the Playground tool.
 
 * [The Playground](#the-playground)
-* [A Swift Tour](#swift-language)
+* [Swift Language](#swift-language)
 * [References](#references)
 
 ## The Playground
