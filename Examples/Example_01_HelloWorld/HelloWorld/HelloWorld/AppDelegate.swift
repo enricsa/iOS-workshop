@@ -3,7 +3,7 @@
 //  HelloWorld
 //
 //  Created by Enric Sánchez on 17/10/16.
-//  Copyright © 2016 axa. All rights reserved.
+//  Copyright © 2016 Enric Sánchez. All rights reserved.
 //
 
 import UIKit
