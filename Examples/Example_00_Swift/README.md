@@ -3,7 +3,7 @@
 In this example we will learn the basic Swift 3.0 sintax using the Playground tool.
 
 * [The Playground](#the-playground)
-* [A Swift Tour](#a-swift-tour)
+* [A Swift Tour](#swift-language)
 * [References](#references)
 
 ## The Playground
@@ -14,7 +14,7 @@ To create a new playground open xcode and select **Get started with a playground
 
 The Playground IDE is very simple. You have the left side to write code, right side to see the results and on the bottom you can see the console that can be shown/hidden.
 
-## A Swift Tour
+## Swift language
 
 On the attached example you can see how to use the basic sintax and the main types to introduce you to Swift.
 
