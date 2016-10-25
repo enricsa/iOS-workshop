@@ -1,7 +1,7 @@
 # App 01: Hello world
 
 * [Description](#description)
-* [Considerations](#considerations) 
+* [Tips](#tips) 
 
 ## Description
 In this example we will implement a simple application which asks the name to the user and updates a label when the user clicks a button.
@@ -11,7 +11,7 @@ In this example we will implement a simple application which asks the name to th
   <kbd><img src="https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/helloworld2.png" alt="Hello World 02" width="360" ></kbd>
 </div>
 
-## Considerations
+## Tips
 
 * Use storyboards is hightly recommended
 * To connect a UI element with the controller use "Ctrl + Drag & Drop" on the splitted view ![alt text][split] and select between IBOutlet or IBAction
