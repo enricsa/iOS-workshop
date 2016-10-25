@@ -1,9 +1,8 @@
 # App 02: Super calculator
 
 * [Description](#description)
-* [Considerations](#considerations) 
-  * [TDD - Test Driven Development](#tdd---test-driven-development) 
-* [Extras](#extras) 
+* [TDD - Test Driven Development](#tdd---test-driven-development) 
+* [Tips](#tips) 
   * [UINavigationController](#uinavigationcontroller)
   * [UIAlertController](#uialertcontroller)
 
@@ -17,15 +16,13 @@ It also includes Unit Test for the model (calculator) and UITest.
   <kbd><img src="https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/calculator2.png" alt="Calculator 02" width="360" ></kbd>
 </div>
 
-## Considerations
-
-### TDD - Test Driven Development
+## TDD - Test Driven Development
 We will implement this example using Test-Driven-Development (TDD) for the business logic (add and substract). 
 Basically we will start implementing the test, then the logic and when the test pass we will be able to refactor all we want because the logic will be secured by tests.
 
  <kbd><img src="https://github.com/esanchezaltran/iOS-workshop/blob/master/Images/tdd.gif" alt="TDD"></kbd>
 
-## Extras
+## Tips
 
 ### UINavigationController
 
